@@ -1,3 +1,6 @@
+ body{
+     background-color: #212121;
+ }
  nav {
      background-color: black;
  }
@@ -5,20 +8,18 @@
  .logo {
      height: 25px;
  }
- 
+ .text-white {
+    line-height: .1;
+}
  .custom-toggler-icon {
      color: white;
  }
- /* .navbar-nav .dropdown-menu {
-    position: absolute;
-    float: none;
-} */
- 
+
  .navbar a:hover {
      text-decoration: none;
      color: #bfbfbf;
-     /* transition: 200ms; */
-     /* font-weight: bold; */
+     
+    
      background-color: grey;
      font: 24px
  }
@@ -33,50 +34,30 @@
      width: auto;
      font-weight: 100;
  }
+ .info{
+     padding: 0px;
+     justify-content: center;
+ }
+ .all-list{
+background-color:#fffff2;
 
- 
+
+ }
 .blue-book {
-    background-color: #d1d1d1;
+    background-color:#d1d1d1;
     text-align: center;
+    margin: 0px;
+   
+}
+h1{
+   
+    font-weight: bold;
+}
+img{
+    padding-left: 35px;
 }
 
-.container-d {
-    background-color: #212121;
-}
-
-.footer-links {
-    color: #bfbfbf;
-    text-decoration: none;
-    font-size: 12px;
-    margin-left: 20px;
-}
-
-.white-gradient {
-    background-color: rgb(255, 186, 0);
-    border-radius: inherit;
-    padding: 5px 23px;
-    font-size: 12px;
-}
- /* .fz{
-    font-size:12px;
-} */
-/*  
- .text-white {
-     line-height: .1;
- }
- 
- .card-body-local {
-     flex: 1 1 auto;
-     padding: 0.25rem;
- }
- 
- .icon {
-     font-size: 15px;
-     margin: 9px;
-     color: grey;
- }
-
- .button {
+.button1 {
     background-color: rgb(255, 186, 0);
     padding: 12px 23px;
     color: black;
@@ -93,11 +74,50 @@
     margin-top: 10px;
 }
 
-.dark-grey {
-	background-color: #212121;
-	color: #bfbfbf;
-} */
+.button1::after {
+    font-family: 'Font Awesome 5 Free';
+    content: ' \f054';
+    
+    font-size: 12px;
+    color: black;
+    
+   
+}
+ 
 
+
+.footer-links{
+    color: #bfbfbf;
+    text-decoration:none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+a{
+text-decoration: none;
+}
+.white-gradient {
+    background-color: rgb(255, 186, 0);
+    border-radius: inherit;
+    padding: 5px 23px;
+    font-size: 12px;
+}
+ 
+.button {
+    background-color: rgb(255, 186, 0);
+    padding: 12px 23px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .14rem;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: inherit;
+    position: relative;
+    transition-duration: 250ms;
+    margin-top: 10px;
+}
 
 .footer{
     background-color: black;
@@ -140,7 +160,7 @@
 .accordion .card .card-body span{
     padding: 7px 0px;
     font-size: 14px;
-    /* font-weight: 400; */
+    font-family: "Roboto" sans-serif;
     color: #bfbfbf;
 }
 
