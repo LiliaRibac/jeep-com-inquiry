@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto:700" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Jeep-com-with-bs</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg p-0 d-flex justify-content-end font-weight-bold justify-content-lg -start navbar-dark">
+      <a class="navbar-brand d-inline-flex mr-auto alingn-items-center " href="#"><img class="logo ml-3" src="logo-jeep.png" /></a>
+      <a href="#" class="py-sm-3 ">
+        <div class="m-2 font-weight-bold text-white p-1">
+          VEHICLES <i class="fas fa-chevron-down"></i>
+        </div>
+      </a>
+      <a href="#" class="py-sm-3 d-none d-sm-block d-lg-none"> </a>
+      <a href="#" class="py-sm-3 d-none d-md-block d-lg-none">
+        <div class="m-2 font-weight-normal text-white">
+          CAPABILITY <i class="fas fa-chevron-down"></i>
+        </div>
+      </a>
+      <button class="navbar-toggler" tupe="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="custom-toggler-icon">Menu <i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse align-items-center" id="navbarNav">
+        <a href="#" class="py-3">
+          <div class="d-sm-none d-lg-block m-2 p-1 text-white">
+            SHOPPING TOOLS <i class="fas fa-chevron-down"></i>
+          </div>
+        </a>
+        <a href="#" class="py-3">
+          <div class="d-sm-none d-lg-block m-2 p-2 text-white">
+            CAPABILITY <i class="fas fa-chevron-down"></i>
+          </div>
+        </a>
+        <a href="#" class="py-3">
+          <div class="m-3 p-1  text-white">JEEP<sub>®</sub> LIFE</div>
+        </a>
+        <a href="#" class="py-3">
+          <div class="m-2  p-1 font-weight-bold text-white">
+            OWNERS <i class="fas fa-chevron-down"></i>
+          </div>
+        </a>
+        <a href="#" class="py-3">
+          <div class="m-2  p-1 text-white">
+            MERCHANDISE <i class="fas fa-share-square"></i>
+          </div>
+        </a>
+      </div>
+      <div class="d-none d-xl-flex my-1 ml-auto">
+        <div class="border-left align-items-center  m-3">|</div>
+        <a href="#" class="d-inline-flex align-items-center ">
+          <div class="mr-3 fz-12  text-white">
+            <i class="fas fa-comment-alt right-icon icon pt-20"> </i>Español
+          </div>
+        </a>
+        <a href="#" class="d-inline-flex align-items-center ">
+          <div class="mr-3 text-white line-height- 0.7 text-right">
+            <i class="fas fa-map-marker-alt right-icon  icon"> </i>FIND A<br />DEALER
+          </div>
+        </a>
+        <a href="#" class="d-inline-flex align-items-center">
+          <div class="mr-3 text-white text-center text-bold">
+            <i class="fas fa-wrench right-icon icon" aria-hidden="true"></i>
+            BUILD & <br />PRICE
+          </div>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <footer>
+    <div class="dark-grey">
+      <div class="container-fluid py-4 px-5">
+        <div class="row">
+          <div class="container-fluid m px-5 col-12 col-lg-8">
+            <div class="row my-2 fz-14 align-items-center">
+              <div class="col-6 col-sm-4 col-lg-auto py-2 px-0 mx-lg-4">
+                <img src="AutoMobility-New-Logo.png" />
+              </div>
+              <div class="col-6 col-sm-4 col-lg-auto py-2 px-0 mx-lg-4">
+                <i class="fas fa-globe-americas mr-2"></i> Find Your Country
+              </div>
+              <div class="col-6 col-sm-4 col-lg-auto py-2 px-0 mx-lg-4">
+                Contact Us
+              </div>
+              <div class="col-6 col-sm-4 col-lg-auto py-2 px-0 mx-lg-4">
+                Site Map
+              </div>
+              <div class="col-6 col-sm-4 col-lg-auto py-2 px-0 mx-lg-4">
+                Careers
+              </div>
+              <div class="col-6 col-sm-4 col-lg-auto py-2 px-0 mx-lg-4">
+                Español
+              </div>
+            </div>
+          </div>
+          <div class="container m-0 col-12 pl-0 col-lg-4">
+            <div class="input-group col-12 col-md-6 pl-0 col-lg-12 m-3">
+              <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <div class="input-group-append">
+                <button type="button" class="btn btn-search  white-gradient font-weight-bold">SEARCH</button>
+                  SEARCH
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      
+        <div class="accordion d-sm-flex flex-wrap" id="accordionExample">
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingOne">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  <span>VEHICLES</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseOne" class="collapse d-sm-block" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">VEHICLES</span>
+                          <span class="col-6 col-sm-auto">Wrangler</span>
+                          <span class="col-6 col-sm-auto">Grand Cherokee</span>
+                          <span class="col-6 col-sm-auto">Cherokee</span>
+                          <span class="col-6 col-sm-auto">Renegade</span>
+                          <span class="col-6 col-sm-auto">Compass</span>
+                          <span class="col-6 col-sm-auto">Gladiator</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingTwo">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <span>COST</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseTwo" class="collapse d-sm-block" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">COST</span>
+                          <span class="col-6 col-sm-auto">View Incentives & Offers</span>
+                          <span class="col-6 col-sm-auto">National Incentives</span>
+                          <span class="col-6 col-sm-auto">Calculate Payment</span>
+                          <span class="col-6 col-sm-auto">Get a Quote</span>
+                          <span class="col-6 col-sm-auto">Apply for Credit</span>
+                          <span class="col-6 col-sm-auto">Get Prequalified</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingThree">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <span>RESEARCH</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseThree" class="collapse d-sm-block" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">RESEARCH</span>
+                          <span class="col-6 col-sm-auto">Adventure Reality</span>
+                          <span class="col-6 col-sm-auto">Build & Price</span>
+                          <span class="col-6 col-sm-auto">Compare Models</span>
+                          <span class="col-6 col-sm-auto">Get a Brochure</span>
+                          <span class="col-6 col-sm-auto">Sign Up for Updates</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingFour">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <span>LOCATE</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseFour" class="collapse d-sm-block" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">LOCATE</span>
+                          <span class="col-6 col-sm-auto">Search New Inventory</span>
+                          <span class="col-6 col-sm-auto">Find a Dealer</span>
+                          <span class="col-6 col-sm-auto">Schedule a Test Drive</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingFive">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <span>CAPABILITY</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseFive" class="collapse d-sm-block" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">CAPABILITY</span>
+                          <span class="col-6 col-sm-auto">Trail Rated</span>
+                          <span class="col-6 col-sm-auto">4x4 Stystems</span>
+                          <span class="col-6 col-sm-auto">Towing</span>
+                          <span class="col-6 col-sm-auto">Fuel Efficiency</span>
+                          <span class="col-6 col-sm-auto">FAQ and Glossary</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingSix">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <span>JEEP LIFE</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseSix" class="collapse d-sm-block" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">JEEP LIFE</span>
+                          <span class="col-6 col-sm-auto">Jeep Life Home</span>
+                          <span class="col-6 col-sm-auto">Easter Jeep Safari</span>
+                          <span class="col-6 col-sm-auto">Jeep Badge of Honor</span>
+                          <span class="col-6 col-sm-auto">Jeep Partnerships</span>
+                          <span class="col-6 col-sm-auto">Jeep Brand History</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingSeven">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <span>OWNERS</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseSeven" class="collapse d-sm-block" aria-labelledby="headingSeven" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">OWNERS</span>
+                          <span class="col-6 col-sm-auto">Jeep Graphics Studio</span>
+                          <span class="col-6 col-sm-auto">Owners Manuals and User Guides</span>
+                          <span class="col-6 col-sm-auto">Vehicle Identification Number</span>
+                          <span class="col-6 col-sm-auto">Warranty</span>
+                          <span class="col-6 col-sm-auto">Jeep Wave</span>
+                          <span class="col-6 col-sm-auto">Recall Information</span>
+                          <span class="col-6 col-sm-auto">EcoDiesel Settlement</span>
+                          <span class="col-6 col-sm-auto">Jeep Gear</span>
+                          <span class="col-6 col-sm-auto">Jeep DrivePlus Mastercard</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-sm-4 col-lg-3">
+          <div class="card-header py-0 px-0 d-sm-none" id="headingEight">
+              <button class="btn btn-link d-flex justify-content-between mb-0 w-100" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                  <span>LEGAL</span>
+                  <i class="fas fa-angle-down d-sm-none"></i>
+              </button>
+          </div>
+          <div id="collapseEight" class="collapse d-sm-block" aria-labelledby="headingEight" data-parent="#accordionExample">
+              <div class="card-body">
+                  <div class="container">
+                      <div class="row d-sm-flex flex-sm-column">
+                          <span class="sneaky-span d-none d-sm-block mb-sm-1">LEGAL</span>
+                          <span class="col-6 col-sm-auto">Privacy Policy</span>
+                          <span class="col-6 col-sm-auto">Copyright</span>
+                          <span class="col-6 col-sm-auto">Terms of Use</span>
+                          <span class="col-6 col-sm-auto">Legal, safety and Trademark Information</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container socials">
+      <div class="row">
+          <span class="col-6">FOLLOW US</span>
+          <span class="col-6">SUPPORT</span>
+          <span class="col-6"><i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-google-plus-square"></i>
+              <i class="fab fa-youtube-square"></i></span>
+          <span class="col-6"><img src="Uconnect-80px.png"/></span>
+      </div>
+  </div>
+  <div class="footer">
+      <div class="container footer-container">
+          <div class="row d-flex justify-content-between">
+              <div class="d-none d-md-block this-shit">
+                  <img src="FCA.png"/>
+                  <img src="chrysler-capital-logo-white.png"/>
+              </div>
+              <div>
+                  <span>CHRYSLER</span>
+                  <span>DODGE</span>
+                  <span>JEEP</span>
+                  <span>RAM</span>
+                  <span>MOPAR</span>
+                  <span>FIAT</span>
+                  <span>ALFA ROMEO</span>
+                  <span>FCA FLEET</span>
+              </div>
+          </div>
+          <div class="row footer-text">
+              <p>&copy2019 FCA US LLC. All Rights Reserved.<br>
+              Chrysler, Dodge, Jeep, Ram, Mopar and SRT are registered trademarks of FCA US LLC.<br>
+              ALFA ROMEO and FIAT are registered trademarks of FCA Group Marketing S.p.A., used with permission.</p>
+              <p>*MSRP excludes destination, taxes, title and registration fees. Starting at price refers to the base model, optional equipment not included. A more expensive model may be shown. Pricing and offers may change at any time without notifiation. To get full pricing details, see your dealer.</p>
+              <p>FCA strives to ensure that its webiste is accessible to indiiduals with disabilities. Should you encounter an issue accessing any content on www.jeep.com, please contact our Customer Service Team at www.jeep.com/webselfservice/jeep/index.html or 1-877-IAMJEEP, for further assistance or to report a problem. Access to www.jeep.com is subject to FCA's Privacy Policy and Terms of Use.</p>
+          </div>
+      </div>
+  </div>
+  </footer>
+</body>
+
+</html>
